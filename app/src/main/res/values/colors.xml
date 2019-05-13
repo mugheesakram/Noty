@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D887C</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="basic_black">#000000</color>
+    <color name="basic_white">#ffffff</color>
+    <color name="hint_color">#afafad</color>
+
+    <color name="dark_grey">#8e8e8d</color>
+
+    <color name="et_text_color">#000000</color>
+    <color name="et_light_grey">#88909B</color>
+
+    <color name="snack_error_color">#E84C38</color>
+    <color name="success_stroke_color">#89cd82</color>
+    <color name="progressbar_color">#64B8F9</color>
+
+    <color name="dark_icons_color">#5E6266</color>
+    <color name="sea_green">#63E6C9</color>
+    <color name="background_color">#D6DFE8</color>
+    <color name="dialog_background">#F2F5F8</color>
+    <color name="warning_dialog_color">#ECA92F</color>
+    <color name="general_dialog_color">#3293E4</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_default" />
+
+
+    <RelativeLayout
+        android:id="@+id/rlMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/size_device_20"
+        android:layout_marginEnd="@dimen/size_device_20">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_empty_icon"
+            style="@style/GreyIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/empty_icon" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_message"
+            style="@style/ErrorMessageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_empty_icon"
+            android:text="@string/check_your_internet_connection" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_retry"
+            style="@style/BtnPrimary"
+            android:layout_width="@dimen/size_device_120"
+            android:layout_height="@dimen/size_device_45"
+            android:layout_below="@id/tv_message"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/size_device_15"
+            android:text="@string/retry"
+            android:textAllCaps="true" />
+
+    </RelativeLayout>
+</RelativeLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/cd_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/size_device_80"
+            app:cardElevation="@dimen/size_device_3"
+            android:layout_marginStart="@dimen/size_device_10"
+            android:layout_marginEnd="@dimen/size_device_10"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="@dimen/size_device_3"
+    >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+        >
+            <android.support.v7.widget.AppCompatTextView
+                    style="@style/RegularText"
+                    android:id="@+id/tv_notes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_18"
+                    android:layout_margin="@dimen/size_device_10"
+                    android:textColor="@color/et_text_color"
+
+            />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
